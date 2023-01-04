@@ -28,6 +28,8 @@ public class FuturesAccount {
     private String availableBalance;
     private String maxWithdrawAmount;
 
+    private String multiAssetsMargin;
+
     private List<FuturesAssetBalance> assets;
     private List<FuturesPosition> positions;
 
@@ -157,6 +159,14 @@ public class FuturesAccount {
 
     public void setMaxWithdrawAmount(String maxWithdrawAmount) {
         this.maxWithdrawAmount = maxWithdrawAmount;
+    }
+
+    public String getMultiAssetsMargin() {
+        return multiAssetsMargin;
+    }
+
+    public void setMultiAssetsMargin(String multiAssetsMargin) {
+        this.multiAssetsMargin = multiAssetsMargin;
     }
 
     public List<FuturesAssetBalance> getAssets() {
