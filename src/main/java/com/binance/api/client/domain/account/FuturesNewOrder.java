@@ -315,7 +315,7 @@ public class FuturesNewOrder {
         return new FuturesNewOrder(symbol, OrderSide.BUY, OrderType.MARKET, quantity, reduceOnly);
     }
 
-    public static FuturesNewOrder MarketShort(String symbol, String quantity, boolean reduceOnly) {
+    public static FuturesNewOrder marketShort(String symbol, String quantity, boolean reduceOnly) {
         return new FuturesNewOrder(symbol, OrderSide.SELL, OrderType.MARKET, quantity, reduceOnly);
     }
 
